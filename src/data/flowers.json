@@ -1,0 +1,6 @@
+[
+  {"id":1,"name":"Роза","price":60,"color":"red","img":"assets/images/rose.jpg"},
+  {"id":2,"name":"Гвоздика","price":30,"color":"pink","img":"assets/images/carnation.jpg"},
+  {"id":3,"name":"Лилия","price":80,"color":"white","img":"assets/images/lily.jpg"}
+  
+]

@@ -1,0 +1,48 @@
+{
+  "flowers": [
+    {"id":1, "name":"Герберы","price":12,"image":"assets/flowers/1.jpg","type":"single"},
+    {"id":2, "name":"Пионовидные розы","price":13,"image":"assets/flowers/2.jpg","type":"single"},
+    {"id":3, "name":"Красные розы","price":5,"image":"assets/flowers/3.jpg","type":"single"},
+    {"id":4, "name":"Pink Wine","price":12,"image":"assets/flowers/4.jpg","type":"single"},
+    {"id":5, "name":"гвоздика","price":4,"image":"assets/flowers/5.jpg","type":"single"},
+    {"id":6, "name":"Гвоздика садовая","price":9,"image":"assets/flowers/6.jpg","type":"single"},
+    {"id":7, "name":"гвоздика","price":15,"image":"assets/flowers/7.jpg","type":"single"},
+    {"id":8, "name":"хризантема","price":8,"image":"assets/flowers/8.jpg","type":"single"},
+    {"id":9, "name":"черная роза","price":8,"image":"assets/flowers/9.jpg","type":"single"},
+    {"id":10, "name":"радужная роза","price":85,"image":"assets/flowers/10.jpg","type":"single"},
+    {"id":11, "name":"Rosa 'Queen Elizabeth'","price":16,"image":"assets/flowers/11.jpg","type":"single"},
+    {"id":12, "name":"одиночная красная роза","price":4,"image":"assets/flowers/12.jpg","type":"single"},
+    {"id":13, "name":"Розы Hybrid Tea","price":15,"image":"assets/flowers/13.jpg","type":"single"},
+    {"id":14, "name":"Голубой месяц","price":16,"image":"assets/flowers/14.jpg","type":"single"},
+    {"id":15, "name":"Hybrid tea rose","price":3,"image":"assets/flowers/15.jpg","type":"single"},
+    {"id":16, "name":"Chrysanthemum morifolium","price":3,"image":"assets/flowers/16.jpg","type":"single"},
+    {"id":17, "name":"красная садовая роза","price":9,"image":"assets/flowers/17.jpg","type":"single"},
+    {"id":18, "name":"Роза Аваланж","price":12,"image":"assets/flowers/18.jpg","type":"single"},
+    {"id":19, "name":"Хризантема одноголовая Бигуди","price":7,"image":"assets/flowers/19.jpg","type":"single"},
+    {"id":20, "name":"Синие розы","price":7,"image":"assets/flowers/21.jpg","type":"single"}
+  ],
+
+  "bouquets": [
+    {"id":101,"name":"Букет из белой Гортензии","price":50,"image":"assets/bouquets/Букет из белой Гортензии.jpg","type":"bouquet"},
+    {"id":102,"name":"Букет из белых Гортензий и пионовидных кустовых роз","price":55,"image":"assets/bouquets/Букет из белых Гортензий и пионовидных кустовых роз.jpg","type":"bouquet"},
+    {"id":103,"name":"Букет из гортензии, кустовых роз","price":60,"image":"assets/bouquets/Букет из гортензии, кустовых роз.jpg","type":"bouquet"},
+    {"id":104,"name":"Букет из кустовых хризантем пудрового цвета","price":45,"image":"assets/bouquets/Букет из кустовых хризантем пудрового цвета.jpg","type":"bouquet"},
+    {"id":105,"name":"Букет из лавандовых Гортензий","price":50,"image":"assets/bouquets/Букет из лавандовых Гортензий.jpg","type":"bouquet"},
+    {"id":106,"name":"Букет из розовой и белой Гортензий","price":55,"image":"assets/bouquets/Букет из розовой и белой Гортензий.jpg","type":"bouquet"},
+    {"id":107,"name":"Букет из розовых французских роз и розовой хризантемы","price":60,"image":"assets/bouquets/Букет из розовых французских роз и розовой хризантемы.jpg","type":"bouquet"},
+    {"id":108,"name":"Букет из французских роз и гортензии","price":65,"image":"assets/bouquets/Букет из французских роз и гортензии.jpg","type":"bouquet"},
+    {"id":109,"name":"Букет Оранжевая песня","price":55,"image":"assets/bouquets/Букет Оранжевая песня.jpg","type":"bouquet"},
+    {"id":110,"name":"Букет пионовидных роз, и эустомы","price":60,"image":"assets/bouquets/Букет пионовидных роз, и эустомы.jpg","type":"bouquet"},
+    {"id":111,"name":"Букет Сладкий Ноябрь","price":70,"image":"assets/bouquets/Букет Сладкий Ноябрь.jpg","type":"bouquet"},
+    {"id":112,"name":"Воздушный поцелуй","price":50,"image":"assets/bouquets/Воздушный поцелуй.jpg","type":"bouquet"},
+    {"id":113,"name":"Гортензия с пионовидными розами","price":65,"image":"assets/bouquets/Гортензия с пионовидными розами.jpg","type":"bouquet"},
+    {"id":114,"name":"Кустовые розы Бомбастик","price":55,"image":"assets/bouquets/Кустовые розы Бомбастик,.jpg","type":"bouquet"},
+    {"id":115,"name":"Кустовые розы Мэнсфилд Парк","price":60,"image":"assets/bouquets/Кустовые розы Мэнсфилд Парк.jpg","type":"bouquet"},
+    {"id":116,"name":"Кустовые розы, маттиола, диантусы","price":58,"image":"assets/bouquets/Кустовые розы, маттиола, диантусы.jpg","type":"bouquet"},
+    {"id":117,"name":"Лавандовые сны","price":52,"image":"assets/bouquets/Лавандовые сны.jpg","type":"bouquet"},
+    {"id":118,"name":"летний букет из роз","price":55,"image":"assets/bouquets/летний букет из роз.jpg","type":"bouquet"},
+    {"id":119,"name":"пионовидная роза","price":50,"image":"assets/bouquets/пионовидная роза.jpg","type":"bouquet"},
+    {"id":120,"name":"Хризантема, Антирринум, Альстромерия и розы","price":60,"image":"assets/bouquets/Хризантема, Антирринум, Альстромерия и розы.jpg","type":"bouquet"},
+    {"id":121,"name":"Яркий букет из пионовидных кустовых роз","price":65,"image":"assets/bouquets/Яркий букет из пионовидных кустовых роз.jpg","type":"bouquet"}
+  ]
+}

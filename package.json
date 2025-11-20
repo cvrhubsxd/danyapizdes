@@ -1,0 +1,40 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "1. Please, place all your `SCSS` styles to `src/styles` folder.\r 2. The `package.json` file is already created, please don't delete NPM scripts which are already there.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd ./test && npm i || true",
+    "test": "cd ./test && npm run test",
+    "build": "echo \"Dummy build script for Autocode\"",
+    "compile:sass": "sass src/scss:src/css --no-source-map",
+    "watch:sass": "sass --watch src/scss:src/css",
+    "start": "live-server src --port=3000",
+    "lint:js": "eslint 'src/js/**/*.js'",
+    "lint:css": "stylelint 'src/scss/**/*.scss'",
+    "lint": "npm run lint:js && npm run lint:css",
+    "unit:test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://autocode.git.epam.com/danial_sarsenov/final-project-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "jest": "^30.2.0",
+    "live-server": "^1.2.2",
+    "sass": "^1.94.0",
+    "stylelint": "^16.25.0"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "leaflet": "^1.9.0"
+  }
+  
+}
+

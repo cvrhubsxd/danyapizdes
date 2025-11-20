@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Greenery & Flower Bouquets</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo">Florist</div>
+        <nav class="header__nav">
+          <a href="index.html" class="header__link">Home</a>
+          <a href="flowers.html" class="header__link">Flowers</a>
+          <a href="store.html" class="header__link">Store</a>
+          <a href="contact.html" class="header__link">Contact</a>
+        </nav>
+        <a href="#" class="btn header__btn">Buy Now</a>
+      </div>
+    </div>
+  </header>
+<!-- Global Cart -->
+<div id="cart" class="cart">
+  <button id="cartToggle" class="cart__toggle">🛒 <span id="cartCount">0</span></button>
+  <div class="cart__dropdown">
+    <h3>Your Cart</h3>
+    <ul id="cartItems"></ul>
+    <div class="cart__total">Total: $<span id="cartTotal">0</span></div>
+    <button id="checkoutCart" class="btn">Checkout</button>
+  </div>
+</div>
+
+  <main>
+    <section class="contact container">
+      <h2 class="section-title">Contact Us</h2>
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p>Email: example@email.com</p>
+        <p>Phone: +998 12 345 67 89</p>
+      </div>
+    </section>
+
+    <section class="google-map container">
+      <h2 class="section-title">You can find us here</h2>
+      <div class="map-wrapper">
+        <iframe 
+           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.074567995508!2d69.3080464121341!3d41.30724140084224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef5221064c207%3A0x9af98ca1628d7aea!2z0KbQstC10YLQvtGH0L3Ri9C5INCx0LDQt9Cw0YA!5e0!3m2!1sru!2s!4v1763555108874!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+      </div>
+    </section>
+  </main>
+<script src="js/cart.js"></script>
+<script src="js/button.js"></script>
+<!-- Modal Quick Buy -->
+<div class="modal" id="quickBuyModal">
+  <div class="modal__overlay" id="modalOverlay"></div>
+  <div class="modal__content">
+    <span class="modal__close" id="modalClose">&times;</span>
+    <h2>Place your order now</h2>
+    <p>We'll call you back in 2 minutes to confirm delivery details</p>
+    <form class="quick-buy-form" id="quickBuyForm">
+      <input type="text" placeholder="Your name" required>
+      <input type="tel" placeholder="Phone" required>
+      <input type="text" placeholder="Delivery address (city, street, house)">
+      <button type="submit" class="btn quick-buy-btn">Place your order</button>
+    </form>
+    <div class="form-success" id="formSuccess" style="display:none;">
+      <h3>Thank you! We will contact you shortly.🎉</h3>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

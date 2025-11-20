@@ -1,0 +1,26 @@
+@use "sass:color";
+@import 'variables';     // подгружает $brand, $container-width и т.п.
+
+
+@mixin container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@mixin btn {
+  display: inline-block;
+  background: color.adjust($brand, $lightness: 0%);
+  color: white;
+  padding: 16px 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: color.adjust($brand, $lightness: -10%);
+    transform: translateY(-3px);
+  }
+}
